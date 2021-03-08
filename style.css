@@ -279,12 +279,12 @@ section.team-works {
 }
 
 .arrow-left {
-    background: url('/img/arrow-left.png') no-repeat 50% 50%;
+    background: url('img/arrow-left.png') no-repeat 50% 50%;
     margin-right: 29px;
 }
 
 .arrow-right {
-    background: url('/img/arrow-right.png') no-repeat 50% 50%;
+    background: url('img/arrow-right.png') no-repeat 50% 50%;
     margin-left: 29px;
 }
 
