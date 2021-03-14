@@ -311,12 +311,32 @@ section.team-works {
     margin-left: 29px;
 }
 
-#reviews .carousel-items {
+#reviews .carousel-items.flex-container {
+    width: 834px;
+    height: 568px;
+    flex-wrap: nowrap;
+    position: relative;
     overflow: hidden;
+}
+#reviews .carousel-inner {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s ease;
+    display: flex;
+    flex-direction: row;
 }
 
 #reviews .review-item.flex-container {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
     margin: 0 auto;
+    position: relative;
 }
 
 .review-item .review-text {
