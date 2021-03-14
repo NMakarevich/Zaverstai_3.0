@@ -8,17 +8,15 @@ const carouselInner = document.querySelector('.carousel-inner')
 let counter = 0;
 
 arrowLeft.addEventListener('click', () => {
-    if (counter != 0) {
+    if (true) {
         counter--;
-        console.log(counter);
-        carouselInner.style.transform = `translateX(-${offsetLength*counter})`;
+        carouselInner.style.transform = `translateX(-${offsetLength * counter}px)`;
     }
 })
 
 arrowRight.addEventListener('click', () => {
     if (counter < carouselLength - 1) {
         counter++;
-        console.log(counter);
         carouselInner.style.transform = `translateX(-${offsetLength * counter}px)`;
     }
 })
